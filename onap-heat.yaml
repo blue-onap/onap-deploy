@@ -146,7 +146,7 @@ resources:
       name:
        list_join: ['-', [ { get_param: "OS::stack_name" }, 'nfs-storage']]
       size: { get_param: nfs_volume_size }
-      volume_type: "51a158f3-de6b-462c-b2a6-ee06254460fe"
+      volume_type: "c6878110-21c6-41b7-ac4e-94dc4bbfcaf3"
     depends_on: 
       - nfs
   nfs_volume_attachment:
