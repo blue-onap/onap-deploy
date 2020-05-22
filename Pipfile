@@ -1,0 +1,14 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+python-openstackclient = "~=5.2"
+python-heatclient = "~=2.1"
+python-neutronclient = "*"
+
+[requires]
+python_version = "3.7"
